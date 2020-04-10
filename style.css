@@ -1,0 +1,183 @@
+body{
+   background-image: url(download\ icon\ 3.png), url(download\ icon\ 4.png), url(download\ icon\ 1.png), url(download\ icon\ 2.png); 
+   background-size: 15%, 15%, 15%, 15%;
+   background-position: top -14% left -1% , top right -9%, bottom -10% left -5%, bottom -5.5% right -6.5%;
+   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+   background-color: rgb(14, 39, 102) ;
+   background-attachment: fixed;
+
+}
+
+
+::placeholder{
+    color: rgba(156, 171, 185, 0.979);
+    font-family: 'Times New Roman', Times, ;
+    font-size: 15px;
+    padding-top: 8px;
+}
+   
+
+.logo{
+   text-align: center;
+   height: auto;
+   max-width: 100%;
+   padding-top: 40px;
+}
+
+
+.main{
+    max-width: inherit;
+    flex-direction: column;
+    background-color: white;
+    margin: 1% 33.25%;
+    border-bottom-left-radius: 0px ;
+    border-top-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-top-right-radius: 22px;
+    height: fit-content;
+}
+
+form{
+     padding-bottom: 20px;
+     align-content: space-around;
+     padding: 8%;
+     padding-top: 3%;
+     
+}
+
+label{
+    
+    color: rgba(91, 94, 95, 0.863);
+    margin: auto;
+    /* margin-bottom: 20px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    font-stretch: inherit;
+    font-weight: 600;
+    /* height: 5px; */
+}
+
+h1{
+    padding-top: 45px;
+    
+    margin: 10%;
+    margin-bottom: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    max-width: 500px;
+    color: rgb(27, 27, 136);
+}
+
+p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    stroke-width: 3px;
+    font-weight: 400;
+    /* font-kerning: auto ; */
+    padding-top: 0px;
+    color: grey;
+}
+
+input{
+    display: block;
+    background-color: rgb(238, 244, 246);
+    border-style: none;
+    border-radius: 3px;
+    height: 52px;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+        
+    
+}
+
+.selectdiv:after{
+    content: ">"  ;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(128, 128, 128);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    rotate: 90deg;
+    right: 490px;
+    top: 840px;
+    padding: 2px;
+    position: absolute;
+    pointer-events: none;
+    
+}
+
+.selectdiv:before{
+    content: "|";
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(207, 207, 207);
+    right: 511px;
+    top: 838px;
+    padding: 2px;
+    position: absolute;
+    pointer-events: none;
+}
+
+
+
+
+.selectdiv select{
+    display: block;
+    font-size: 15px;
+    background-color: rgb(238, 244, 246);
+    border-style: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0%;
+    margin-top: 1%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+
+}
+
+
+
+
+  
+
+
+button{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(30, 65, 153);
+    border-style: none;
+    margin-top: 7px;
+    border-bottom-left-radius: 0% ;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px;
+    color: white;
+    font-family:  sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    align-content: center;
+}
+
+footer{
+    padding-top: 25px;
+    font-weight: 550;
+    padding-bottom: 50px;
+    text-align: center;
+    height: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
